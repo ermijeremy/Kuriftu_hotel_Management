@@ -567,7 +567,7 @@ export default function DiningServicesPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Kuriftu Resort & Spa</h3>
+            <h3 className="text-xl font-semibold mb-4">Kuriftu Resort and Spa</h3>
               <address className="not-italic">
                 <div className="flex items-center mb-2">
                   <MapPin className="w-5 h-5 mr-2" />
@@ -575,11 +575,13 @@ export default function DiningServicesPage() {
                 </div>
                 <div className="flex items-center mb-2">
                   <Phone className="w-5 h-5 mr-2" />
-                  <span>+1 234 567 8900</span>
+                  <span>Water Park
+                  +251933817881</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-2" />
-                  <span>info@kuriftu.com</span>
+                  <span>
+                  kuriftu@kuriftuawash.com</span>
                 </div>
               </address>
             </div>

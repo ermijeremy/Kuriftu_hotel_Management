@@ -12,7 +12,7 @@ export default function AfricanVillagePage() {
       <section className="relative w-full">
         <div className="relative w-full h-[400px]">
           <Image
-            src="/placeholder.svg?height=400&width=1200"
+            src="photo_2025-04-10_16-17-50.jpg"
             alt="African Village"
             fill
             className="object-cover"
@@ -164,7 +164,7 @@ export default function AfricanVillagePage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Hyge Royal Resort</h3>
+            <h3 className="text-xl font-semibold mb-4">Kuriftu Resort</h3>
               <address className="not-italic">
                 <div className="flex items-center mb-2">
                   <MapPin className="w-5 h-5 mr-2" />
@@ -172,11 +172,12 @@ export default function AfricanVillagePage() {
                 </div>
                 <div className="flex items-center mb-2">
                   <Phone className="w-5 h-5 mr-2" />
-                  <span>+1 234 567 8900</span>
+                  <span>Water Park
+                  +251933817881</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-2" />
-                  <span>info@hygeroyal.com</span>
+                  <span>kuriftu@bishoftukuriftu.com</span>
                 </div>
               </address>
             </div>
@@ -220,7 +221,7 @@ export default function AfricanVillagePage() {
             </div>
           </div>
           <div className="border-t border-[#A1887F] mt-8 pt-6 text-center">
-            <p>&copy; {new Date().getFullYear()} Hyge Royal Resort. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Kuriftu Resort. All rights reserved.</p>
           </div>
         </div>
       </footer>

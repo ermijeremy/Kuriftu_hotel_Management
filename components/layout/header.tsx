@@ -17,7 +17,7 @@ export function Header() {
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="hover:text-[#E8C9A0] transition-colors">
+            <Link href="/home" className="text-white hover:text-[#E8C9A0] transition-colors">
               Home
             </Link>
             <Link href="/rooms" className="hover:text-[#E8C9A0] transition-colors">
@@ -85,7 +85,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="bg-[#f8e0c0]">
               <nav className="flex flex-col space-y-4 mt-8">
-                <Link href="/" className="text-[#8B4513] hover:text-[#6D4C41] transition-colors text-lg">
+                <Link href="/home" className="text-[#8B4513] hover:text-[#6D4C41] transition-colors text-lg">
                   Home
                 </Link>
                 <Link href="/rooms" className="text-[#8B4513] hover:text-[#6D4C41] transition-colors text-lg">
@@ -154,4 +154,3 @@ export function Header() {
     </header>
   )
 }
-
