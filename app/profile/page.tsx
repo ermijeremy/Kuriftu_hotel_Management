@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-
+import Link from "next/link"
 import { useState } from "react"
 import Image from "next/image"
 import { User, Mail, Phone, MapPin, Calendar, Edit, Camera, LogOut } from "lucide-react"
@@ -16,11 +16,11 @@ import { Separator } from "@/components/ui/separator"
 export default function ProfilePage() {
   const [isEditing, setIsEditing] = useState(false)
   const [userData, setUserData] = useState({
-    firstName: "John",
-    lastName: "Doe",
-    email: "john.doe@example.com",
-    phone: "+1 234 567 8900",
-    address: "123 Main St, Anytown, USA",
+    firstName: "Abraham",
+    lastName: "Bitew",
+    email: "Abrahama12.doe@example.com",
+    phone: "+2519 567 8900",
+    address: "Piassa, AddisAbab",
     birthdate: "1990-01-01",
   })
 
@@ -87,7 +87,7 @@ export default function ProfilePage() {
               <div className="absolute top-4 right-4">
                 <Button variant="ghost" className="text-white">
                   <LogOut className="h-5 w-5 mr-2" />
-                  Sign Out
+                  <Link href='/'>Sign Out</Link>
                 </Button>
               </div>
             </div>

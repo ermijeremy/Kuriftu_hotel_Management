@@ -12,7 +12,7 @@ export default function HomePage() {
       <section className="relative w-full">
         <div className="relative w-full h-[500px]">
           <Image
-            src="\photo_2025-04-10_16-17-44.jpg"
+            src="/placeholder.svg?height=500&width=1200"
             alt="Kuriftu Resort & Spa"
             fill
             className="object-cover"
@@ -284,4 +284,3 @@ export default function HomePage() {
     </main>
   )
 }
-

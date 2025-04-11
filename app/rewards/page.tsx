@@ -149,7 +149,7 @@ export default function RewardsPage() {
       description: "Earn points when friends book using your referral code",
       icon: <UserPlus className="h-10 w-10 text-[#5D4037]" />,
       action: "Refer Now",
-      link: "#",
+      link: "/profile/refer",
       points: 200,
       pointsText: "per referral",
     },
@@ -160,21 +160,21 @@ export default function RewardsPage() {
     {
       name: "Abebe Bikila",
       tier: "Platinum",
-      image: "/placeholder.svg?height=80&width=80",
+      image: "profile1.png",
       quote:
         "The Kuriftu loyalty program has transformed my stays into unforgettable experiences. The Platinum benefits are truly exceptional!",
     },
     {
       name: "Wangari Maathai",
       tier: "Diamond",
-      image: "/placeholder.svg?height=80&width=80",
+      image: "profile2.jpeg",
       quote:
         "As a Diamond member, I feel like royalty every time I visit. The personalized service and exclusive benefits are unmatched.",
     },
     {
       name: "Kofi Annan",
       tier: "Gold",
-      image: "/placeholder.svg?height=80&width=80",
+      image: "profile4.jpeg",
       quote:
         "The Gold tier benefits have made my business trips so much more comfortable. I especially appreciate the room upgrades.",
     },
@@ -219,7 +219,7 @@ export default function RewardsPage() {
       <section className="relative w-full">
         <div className="relative w-full h-[400px] overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=1200"
+            src="photo_2025-04-10_16-17-50.jpg"
             alt="Kuriftu Loyalty Program"
             fill
             className="object-cover"
@@ -277,7 +277,7 @@ export default function RewardsPage() {
             <Progress
               value={animateProgress ? tierInfo.progress : 0}
               className="h-3 bg-[#EDDCBE]"
-              indicatorClassName="bg-gradient-to-r from-[#8B4513] to-[#5D4037]"
+              indicatorclassname="bg-gradient-to-r from-[#8B4513] to-[#5D4037]"
             />
           </div>
         </div>
@@ -384,7 +384,7 @@ export default function RewardsPage() {
             Start your journey to exclusive rewards and unforgettable experiences at Kuriftu Resort & Spa
           </p>
           <Button className="bg-white text-[#8B4513] hover:bg-[#EDDCBE] text-lg px-8 py-6 h-auto">
-            Start Earning Rewards
+            <Link href='/'>Start Earning Rewards</Link>
           </Button>
         </div>
       </section>
@@ -491,7 +491,7 @@ export default function RewardsPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 font-serif">Kuriftu Resort & Spa</h3>
+            <h3 className="text-xl font-semibold mb-4">Kuriftu Resort and Spa</h3>
               <address className="not-italic">
                 <div className="flex items-center mb-2">
                   <MapPin className="w-5 h-5 mr-2" />
@@ -499,11 +499,12 @@ export default function RewardsPage() {
                 </div>
                 <div className="flex items-center mb-2">
                   <Phone className="w-5 h-5 mr-2" />
-                  <span>+1 234 567 8900</span>
+                  <span>Water Park
+                  +251933817881</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-2" />
-                  <span>info@kuriftu.com</span>
+                  <span>kuriftu@entotokuriftu.com</span>
                 </div>
               </address>
             </div>
